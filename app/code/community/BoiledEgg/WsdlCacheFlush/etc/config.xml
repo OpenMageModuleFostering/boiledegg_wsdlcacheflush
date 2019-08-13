@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<BoiledEgg_WsdlCacheFlush>
+			<version>1.0.0</version>
+		</BoiledEgg_WsdlCacheFlush>
+	</modules>
+	<global>
+		<models>
+			<boiledegg_wsdlcacheflush>
+				<class>BoiledEgg_WsdlCacheFlush_Model</class>
+				<resourceModel>boiledegg_wsdlcacheflush_resource</resourceModel>
+			</boiledegg_wsdlcacheflush>
+			<boiledegg_wsdlcacheflush_resource>
+				<class>BoiledEgg_WsdlCacheFlush_Model_Resource</class>
+			</boiledegg_wsdlcacheflush_resource>
+		</models>
+		<blocks>
+			<boiledegg_wsdlcacheflush>
+				<class>BoiledEgg_WsdlCacheFlush_Block</class>
+			</boiledegg_wsdlcacheflush>
+		</blocks>
+	</global>
+
+	<admin>
+		<routers>
+			<boiledegg_wsdlcacheflush>
+				<use>admin</use>
+				<args>
+					<module>BoiledEgg_WsdlCacheFlush</module>
+					<frontName>wsdlcache</frontName>
+				</args>
+			</boiledegg_wsdlcacheflush>
+		</routers>
+	</admin>
+
+	<adminhtml>
+		<layout>
+			<updates>
+				<boiledegg_wsdlcacheflush>
+					<file>wsdlcacheflush.xml</file>
+				</boiledegg_wsdlcacheflush>
+			</updates>
+		</layout>
+	</adminhtml>
+</config>

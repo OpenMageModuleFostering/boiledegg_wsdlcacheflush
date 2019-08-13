@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>BoiledEgg_WsdlCacheFlush</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php ">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds a flush WSDL cache button in the systems cache management page</summary>
+    <description>Enables you to flush wsdl cache from the admin area. Especially comes in handy when developing API's.</description>
+    <notes>- Adds WSDL cache flush button in cache management admin page</notes>
+    <authors><author><name>Anton Evers</name><user>AntonEvers</user><email>ajpevers@gmail.com</email></author></authors>
+    <date>2014-04-25</date>
+    <time>16:41:51</time>
+    <contents><target name="magecommunity"><dir name="BoiledEgg"><dir name="WsdlCacheFlush"><dir name="Block"><file name="Flush.php" hash="880e7e5806d6b128f817f77d394edc79"/></dir><dir name="controllers"><file name="FlushController.php" hash="44114ad057a8380aee21ae267adf3196"/></dir><dir name="etc"><file name="config.xml" hash="f6aaa7fe458b2cc5e3c8e681663ab2c5"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="wsdlcacheflush.xml" hash="b23a1a949043c343d42b2497438c0f78"/></dir><dir name="template"><dir name="wsdlcacheflush"><file name="flush.phtml" hash="99319938772399ac9aebb9cfbd8294a5"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="BoiledEgg_WsdlCacheFlush.xml" hash="309e40cb19ebe312297a32ff997758a5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>5.5.0</max></php></required></dependencies>
+</package>
