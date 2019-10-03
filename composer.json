@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/BoiledEgg_WsdlCacheFlush",
+    "name": "OpenMageModuleFostering\/BoiledEgg_WsdlCacheFlush",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Adds a flush WSDL cache button in the systems cache management page",
     "authors": [
-    {
-        "name": "Anton Evers",
-        "email": "ajpevers@gmail.com"
-    }
-],
+        {
+            "name": "Anton Evers",
+            "email": "ajpevers@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
